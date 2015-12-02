@@ -1,0 +1,305 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#featuresHeading h3 {
+  margin-left: 25px;
+}
+
+#features {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#portfolios {
+  margin: 150px,10px,20px,10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#portfolios p{
+  margin-left: 10px;
+}
+
+#portfolios img {
+  margin: 10px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+#PES , #IOT {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#PES img, #IOT img {
+  width: 300px;
+  height: 300px;
+}
+
+#IOT img {
+  margin-top: 20px;
+}
+
+#Map {
+  margin: 20px;
+}
+
+#Map h4, #Map p , #Map a{
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding: 20px;
+}
+
+footer ul{
+  padding-left: 0;
+  color: #eee;
+  margin-top: 10px;
+  padding-left:0;
+}
+
+footer ul li{
+  display: inline;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+footer p{
+  text-align: center;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+  background: whitesmoke;
+}
+
+#main {
+  background: #fff;
+	font-family: 'Open sans', sans-serif;
+}
+
+.navbar {
+	background: #66ccff;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar {
+  background: #66ccff;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+
+.navbar-brand img {
+  border-radius:50%;
+	position: relative;
+}
+
+.navbar-nav {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.navbar-form {
+  margin-top: 50px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 143px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+	.portfolio {
+		height: 320px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+#portfolios{
+		margin-top: 160px;
+		margin-bottom: 20px;
+	}
+
+.navbar {
+		height: 143px;
+		top:0;
+	}
+
+.navbar-nav {
+		float: right;
+		margin-top: -100px;
+	}
+
+.navbar-form {
+		margin-top: -60px;
+		float: right;
+	}
+
+#PES img, #IOT img {
+	  width: 200px;
+	  height: 200px;
+		margin-top: 100px;
+	}
+}
+
+
+@media (min-width: 991px) and (max-width:1199px) {
+	.portfolio {
+		height: 300px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+#portfolios{
+		margin-top: 150px;
+		margin-bottom: 60px;
+	}
+
+.navbar {
+		height: 143px;
+		top:0;
+	}
+
+	.navbar-nav {
+		float: left;
+		margin-top: 20px;
+	}
+
+	.navbar-form {
+		margin-top: 0px;
+		float: right;
+	}
+
+	#PES img, #IOT img {
+	  width: 250px;
+	  height: 250px;
+	}
+
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+
+	#slide1 {
+		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+
+	#portfolios{
+		margin-top: 160px;
+		margin-bottom: 20px;
+	}
+
+}

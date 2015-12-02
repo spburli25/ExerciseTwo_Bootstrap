@@ -1,0 +1,288 @@
+/*Properties of wrap container*/
+.wrap {
+  font-family: sans-serif;
+  background: #C0C0C0;
+}
+
+/*Properties of header*/
+.header {
+  background-image: url("../images/header8.jpg");
+  position: fixed;
+  top:0;
+  width: 960px;
+}
+
+/*Properties of logo*/
+.img_Wipro {
+  border-radius:50%;
+	position: relative;
+}
+
+/* Properties of menu items*/
+.primary_menu  {
+  list-style-type: none;
+  font-family: 'Open sans', sans-serif;;
+  font-size:25px;
+  margin-right: 100px;
+  margin-top: 40px;
+  color: black;
+}
+
+.primary_menu li {
+  display: inline;
+}
+
+.primary_menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.primary_menu li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Properties Hero image*/
+.Hero_image {
+  width: 960px ;
+  height: 350px;
+  margin-top: 137px;
+}
+
+/* Properties of container of main content of services*/
+.Primary {
+  background: #ACD1E9;;
+  padding-top: 10px;
+}
+
+.Secondary {
+  background: whitesmoke;
+  padding-top: 10px;
+}
+
+.Ternary {
+  background: whitesmoke;
+  padding-top: 10px;
+}
+
+.Overview p, .Alliances p, .Sustainability p {
+  font-family:Segoe UI;
+  font-size: 13px;
+  color: #333;
+}
+
+.Overview h3 ,.Alliances h3, .Sustainability h3{
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.img_Overview, .img_Alliances, .img_Sustainability {
+	border : 1px solid #333;
+	margin : 0 5px 5px 0;
+	padding : 5px;
+	height : 150px;
+	width: 280px;
+}
+
+/*Properties of PES*/
+.Pes_Content {
+  font-family:Segoe UI;
+  font-size: 13px;
+  color: #333;
+}
+
+.Pes_Image p img {
+  width: 300px;
+  height: 300px;
+}
+
+/*Properties of IOT in services*/
+.Iot_Content {
+  font-family:Segoe UI;
+  font-size: 13px;
+  color: #333;
+  padding-left: 10px;
+}
+
+.Iot_Image{
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.Iot_Image p img {
+  width: 300px;
+  height: 300px;
+}
+
+/* Properties of portfolio head*/
+.Portfolio_Container {
+  background: whitesmoke;
+  width: 960px;
+  height: 100px;
+  font-family: 'Open sans', sans-serif;
+  margin-top: 137px;
+  padding-top: 10px;
+}
+
+.Portfolio_Container h5 {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Portfolio_Container p {
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #777;
+  font-size: 18px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+/* Properties of Container of portfolio*/
+.Base1 {
+  color: #333;
+  font-family: 'Open sans', sans-serif;
+  background: whitesmoke;
+  padding-top: 10px;
+}
+
+.Base2 {
+  color: #333;
+  font-family: 'Open sans', sans-serif;
+  background: whitesmoke;
+  padding-top: 10px;
+}
+
+.Base3 {
+  font-family: 'Open sans', sans-serif;
+  background: whitesmoke;
+  padding-top: 10px;
+}
+
+.Robust h4, .Power h4, .IOT h4, .Leverage h4, .Breakdown h4, .Customer_Analytics h4{
+  margin-left: 10px;
+  font-family: 'Open sans', sans-serif;
+  color: #333;
+}
+
+.Robust p, .Power p, .IOT p, .Leverage p, .Breakdown p, .Customer_Analytics p{
+  margin-left: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Properties of portfolio images*/
+.img_Robust, .img_Power, .img_IOT,.img_Leverage, .img_Breakdown, .img_Analytics {
+	margin : 5px 5px 5px 5px;
+	padding : 5px;
+	height : 200px;
+	width: 280px;
+}
+
+.img_OptimizeFinance , .img_DeltaDrone {
+  margin: 5px 5px 5px 15px;
+  padding: 5px;
+  height: 280px;
+  width: 420px;
+}
+
+/* Properties of portfolio */
+.Optimize_Finance h4  {
+  margin-left: 15px;
+  color: #333;
+}
+
+.Optimize_Finance p  {
+  margin-left: 15px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.Delta_Drone h4 {
+  margin-left: 15px;
+  color: #333;
+}
+
+.Delta_Drone p {
+  margin-left: 15px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Properties of site links*/
+.site_links {
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.site_links li {
+  display: inline;
+  margin-left: 15px;
+  font-family: 'Open sans', sans-serif;
+  list-style-type: none;
+  font-size:16px;
+  color: black;
+}
+
+.site_links li a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.site_links li a:hover {
+  color: #000 ;
+}
+
+/* Properties of social links*/
+.social_links li {
+  display: inline;
+  margin: auto;
+  font-family: 'Open sans', sans-serif;
+  list-style-type: none;
+  color: black;
+  padding-left: 0x;
+  margin-left: 10px;
+  padding-top: 0;
+}
+
+.social_links li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.social_links li a :hover{
+  text-decoration: none;
+  color: #6f6f6f;
+}
+
+/* Properties of footer*/
+.footer {
+  background-image: url("../images/header.jpg");
+}
+
+.footer h6 {
+  color: #eee;
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;;
+}
+
+.footer_copywright {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: #eee
+}
