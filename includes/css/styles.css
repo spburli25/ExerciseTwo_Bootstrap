@@ -15,20 +15,31 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 
 #features {
-	text-align: center;
+	text-align: justify;
 }
 
 #features img {
 	margin: 0 0 20px;
 }
 
-#featuresHeading h3 {
-  margin-left: 25px;
-}
 
 #features {
   margin-left: 10px;
   margin-right: 10px;
+	margin-top: 10px;
+}
+.panel {
+	height: 400px;
+}
+.Address h4 , .Address p {
+	margin-left: 0;
+}
+
+.ReadMore {
+	float: right;
+	font-size:14px;
+	margin-top:10px;
+	padding-bottom: 5px;
 }
 
 #portfolios {
@@ -39,6 +50,7 @@ Notes:	 Hand coded for Udemy.com
 
 #portfolios p{
   margin-left: 10px;
+	margin-top: 20px;
 }
 
 #portfolios img {
@@ -70,6 +82,14 @@ Notes:	 Hand coded for Udemy.com
 #Map h4, #Map p , #Map a{
   margin-left: 30px;
   margin-top: 0;
+}
+
+#moreInfo {
+	margin: 10px;
+}
+
+#moreInfo p.lead {
+	margin-top: 5px;
 }
 
 footer {
@@ -110,7 +130,9 @@ body {
   background: #fff;
 	font-family: 'Open sans', sans-serif;
 }
-
+.tab-content a{
+	margin-left: 15px;
+}
 .navbar {
 	background: #66ccff;
 }
@@ -120,6 +142,9 @@ ul.unstyled {
 	padding: 0;
 }
 
+.footer_copywright {
+	color: lightblue;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -204,71 +229,80 @@ ul.unstyled {
 	#slide3 {
 		background: url('../../images/carousel_small_03.jpg') top center no-repeat;
 	}
+	.navbar-form {
+		margin-top: 10px;
+		float: left;
+	}
+
+	#portfolios{
+		margin-top: 160px;
+		margin-bottom: 20px;
+	}
 
 }
 
 
 @media (min-width: 768px) and (max-width:991px) {
 	.portfolio {
-		height: 320px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 
-#portfolios{
+	#portfolios{
 		margin-top: 160px;
 		margin-bottom: 20px;
 	}
 
-.navbar {
+	.navbar {
 		height: 143px;
 		top:0;
 	}
 
-.navbar-nav {
-		float: right;
-		margin-top: -100px;
+	.navbar-nav {
+		margin-top: 40px;
 	}
 
-.navbar-form {
-		margin-top: -60px;
-		float: right;
+	.navbar-form {
+		margin-top: 10px;
+		float: none;
 	}
 
-#PES img, #IOT img {
+	#searchInput {
+		margin-left: 160px;
+	}
+
+	#PES img, #IOT img {
 	  width: 200px;
 	  height: 200px;
-		margin-top: 100px;
-	}
+		}
 }
 
 
 @media (min-width: 991px) and (max-width:1199px) {
 	.portfolio {
-		height: 300px;
 		margin-bottom: 20px;
 		margin-top: 10px;
 	}
 
-#portfolios{
+	#portfolios{
 		margin-top: 150px;
 		margin-bottom: 60px;
 	}
 
-.navbar {
+	.navbar {
 		height: 143px;
 		top:0;
 	}
 
 	.navbar-nav {
 		float: left;
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 
 	.navbar-form {
-		margin-top: 0px;
+		margin-top: 45px;
 		float: right;
 	}
 
@@ -295,6 +329,9 @@ ul.unstyled {
 
 	#slide3 {
 		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+	.navbar-form {
+		float: right;
 	}
 
 	#portfolios{
